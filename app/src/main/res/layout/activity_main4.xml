@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/white"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/mainimg2"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        android:layout_gravity="center|top"
+
+
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/main4i1"
+        android:layout_marginTop="-50dp"
+
+
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your food"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="300dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Easily find your type of food craving and you’ll get delivery in wide range."
+        android:textColor="@color/gray1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/main_button1"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:text="Next"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"/>
+
+
+</FrameLayout>
