@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_row_min_height">64dp</dimen>
+    <dimen name="nav_row_radius">16dp</dimen>
+    <dimen name="nav_row_stroke">1dp</dimen>
+    <dimen name="nav_row_pad_h">20dp</dimen>
+    <dimen name="nav_icon_size">28dp</dimen>
+    <dimen name="nav_icon_gap">16dp</dimen>
+    <dimen name="nav_screen_pad">16dp</dimen>
+    <dimen name="nav_block_gap">12dp</dimen>
+</resources>

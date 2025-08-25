@@ -34,12 +34,7 @@ class MainActivity10 : AppCompatActivity() {
 
         }
 
-        val addToCartButton = findViewById<Button>(R.id.button4)
 
-        // Set click listener
-        addToCartButton.setOnClickListener {
-            Toast.makeText(this, "Item added to cart", Toast.LENGTH_SHORT).show()
-        }
 
 
     }

@@ -10,4 +10,9 @@
     <color name="cart_el_bg">#daedf9</color>
     <color name="input_box2">#D5EBFC</color>
     <color name="amount_box">#FEABAB</color>
+    <color name="lx_surface">#FFFFFFFF</color>
+    <color name="lx_bg">#F4FAFE</color>
+    <color name="lx_outline">#14000000</color> <!-- 8% black -->
+    <color name="lx_outline_pressed">#26000000</color> <!-- 15% black -->
+    <color name="lx_text_primary">#111111</color>
 </resources>

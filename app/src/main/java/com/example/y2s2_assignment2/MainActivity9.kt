@@ -28,8 +28,7 @@ class MainActivity9 : AppCompatActivity() {
 
         menu.setOnClickListener(){
 
-            val intent = Intent(this,MainActivity11::class.java)
-
+            val intent = Intent(this, MainActivity11::class.java)
             startActivity(intent)
         }
 
@@ -52,13 +51,7 @@ class MainActivity9 : AppCompatActivity() {
 
 
 
-        val image4 = findViewById<ImageView>(R.id.imageView19)
 
-        image4.setOnClickListener(){
-
-            val intent = Intent(this, MainActivity12::class.java)
-            startActivity(intent)
-        }
 
 
 
