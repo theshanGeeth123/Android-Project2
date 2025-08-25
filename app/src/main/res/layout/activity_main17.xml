@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#FFF7F8"
+        android:background="#E9EFFA"
         android:padding="16dp"
         tools:context=".MainActivity9">
 
@@ -39,7 +39,7 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="89dp"
+                android:layout_width="50dp"
                 android:layout_height="75dp"
                 app:srcCompat="@drawable/main_logo" />
 
@@ -51,13 +51,14 @@
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/main17img1" />
+            android:background="@color/white"
+            app:srcCompat="@drawable/main17i1" />
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Geethanjana K.M.G.T"
+            android:text="Aloka ,Chathu"
             android:textSize="28sp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
@@ -85,7 +86,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/white"
+        android:background="#72709C"
         android:layout_marginTop="20dp">
 
 
@@ -98,7 +99,7 @@
                 android:textSize="17sp"
                 android:layout_marginLeft="33dp"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle=""
                 android:gravity=""
                 />
@@ -113,7 +114,7 @@
             android:background="@drawable/main17inputs"
             android:textColor="@color/black"
             android:ems="10"
-           android:text="GEETHANAJAN K.M.G.T"
+           android:text="Aloka ,Chathu"
             android:inputType="text"
             android:paddingLeft="30dp"
             android:textColorHint="#B10D0D0D"
@@ -131,7 +132,7 @@
                 android:textSize="17sp"
                 android:layout_marginLeft="33dp"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle=""
                 android:gravity=""
                 />
@@ -163,7 +164,7 @@
                 android:textSize="17sp"
                 android:layout_marginLeft="33dp"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle=""
                 android:gravity=""
                 />
@@ -178,7 +179,7 @@
             android:background="@drawable/main17inputs"
             android:textColor="@color/black"
             android:ems="10"
-            android:text="it23800632@my.sliit.lk"
+            android:text="chathu@gmail.com"
             android:inputType="text"
             android:paddingLeft="30dp"
             android:textColorHint="#B10D0D0D"
@@ -196,7 +197,7 @@
                 android:textSize="17sp"
                 android:layout_marginLeft="33dp"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle=""
                 android:gravity=""
                 />
@@ -212,7 +213,7 @@
             android:background="@drawable/main17inputs"
             android:textColor="@color/black"
             android:ems="10"
-            android:text="+94 750952789"
+            android:text="+94 76123456"
             android:inputType="text"
             android:paddingLeft="30dp"
             android:textColorHint="#B10D0D0D"
@@ -236,11 +237,11 @@
             android:paddingTop="10dp"
             android:paddingRight="30dp"
             android:paddingBottom="10dp"
-            android:text="Edit now"
+            android:text="Confirm"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
