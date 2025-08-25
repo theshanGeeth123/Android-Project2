@@ -34,7 +34,7 @@ class MainActivity9 : AppCompatActivity() {
         }
 
 
-        val image1 = findViewById<ImageView>(R.id.imageView20)
+        val image1 = findViewById<ImageView>(R.id.imageView26)
 
         image1.setOnClickListener(){
 
@@ -42,7 +42,7 @@ class MainActivity9 : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val image2 = findViewById<ImageView>(R.id.imageView21)
+        val image2 = findViewById<ImageView>(R.id.imageView20)
 
         image2.setOnClickListener(){
 
