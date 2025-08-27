@@ -229,6 +229,47 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/section7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/linear_stroke"
+
+            >
+
+
+
+            <ImageView
+
+                android:layout_width="30dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/about"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="60dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="About/Support"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"

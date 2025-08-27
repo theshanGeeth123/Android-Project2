@@ -20,7 +20,8 @@ class MainActivity11 : AppCompatActivity() {
             R.id.section3 to MainActivity12::class.java,  // My Cart
             R.id.section4 to MainActivity18::class.java,  // My Profile
             R.id.section5 to MainActivity5::class.java,   // Sign Out / other screen
-            R.id.section6 to MainActivity17::class.java   // NEW: only if exists in XML
+            R.id.section6 to MainActivity17::class.java ,  // NEW: only if exists in XML
+            R.id.section7 to MainActivity19::class.java
         )
 
         val clicker = View.OnClickListener { v ->

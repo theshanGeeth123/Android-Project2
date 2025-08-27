@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <!-- Single direct child -->
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="16dp"
+        tools:context=".MainActivity9">
+
+        <!-- Header row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="40dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/main16img1" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/main_logo" />
+        </LinearLayout>
+
+        <!-- Screen title -->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="About &amp; Support"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <!-- ===== About Section ===== -->
+        <TextView
+            android:id="@+id/heading_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Food Rush service"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/body_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Rush is a fast, reliable on‑demand food delivery service connecting customers with nearby restaurants and trusted riders. Our mission is to deliver great meals quickly and safely—anytime, anywhere."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="2dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#EAEAEA" />
+
+        <!-- ===== Features Section ===== -->
+        <TextView
+            android:id="@+id/heading_features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key features"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/body_features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Live order tracking\n• Secure payments\n• Curated offers &amp; discounts\n• 24/7 customer support\n• Multi‑language support"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#EAEAEA" />
+
+        <!-- ===== Contact Section ===== -->
+        <TextView
+            android:id="@+id/heading_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact details"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/contact_hotline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotline: +94 71 234 5678"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/contact_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: support@foodrush.example.com"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:autoLink="email"
+            android:linksClickable="true"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/contact_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Website: https://foodrush.example.com"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/contact_whatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WhatsApp: https://wa.me/94712345678"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/contact_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: Matara ,Sri Lanka"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="2dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#EAEAEA" />
+
+        <!-- ===== Hours Section ===== -->
+        <TextView
+            android:id="@+id/heading_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hours of operation"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/body_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orders: Mon–Sun, 8:00 AM – 11:00 PM\nSupport: 24/7 via chat &amp; email"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="2dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#EAEAEA" />
+
+        <!-- ===== Support Options Section ===== -->
+        <TextView
+            android:id="@+id/heading_support_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Support options"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/body_support_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• In‑app chat (Help ▶ Start chat)\n• Email support (24/7)\n• Call hotline\n• Help Center (FAQs &amp; guides)"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#EAEAEA" />
+
+        <!-- ===== FAQ Section ===== -->
+        <TextView
+            android:id="@+id/heading_faq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently asked questions"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/faq_q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: How do I order a product?"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/faq_a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A: Open Orders ▶ select your cart section and make successful payment throught payment gateway.."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/faq_q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Can I change my delivery address after placing the order?"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/faq_a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A: You need to contact us with given contact number.."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/faq_q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: What payment methods are supported?"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/faq_a3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A: Major cards, cash on delivery not available now , available in next update.."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#EAEAEA" />
+
+        <!-- ===== App Info Section ===== -->
+        <TextView
+            android:id="@+id/heading_appinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App info"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/body_appinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last updated: Sep 1, 2025"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:lineSpacingExtra="2dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#EAEAEA" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
