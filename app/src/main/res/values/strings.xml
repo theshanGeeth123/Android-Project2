@@ -1,7 +1,125 @@
 <resources>
     <string name="app_name">Y2S2_assignment2</string>
 
-    <!-- activity_main -->
+    <!-- Main Screen -->
 
+    <string name="main_description">It’s a pleasure to meet you. We are excited that
+        you’re here so let’s get started!</string>
+
+    <string name="main_btn1">Let\'s Go</string>
+
+    <!-- On-Board-Screen-1  -->
+
+    <string name="ob1_header">All your favourites</string>
+
+    <string name="ob1_description">Order from the best local restaurants
+        with easy, on-demand delivery</string>
+
+    <string name="ob1_btn">Next</string>
+
+    <!-- On-Board-Screen-2 -->
+
+    <string name="ob2_header">Free delivery offers</string>
+
+    <string name="ob2_description">Free delivery for new customers via Apple Pay
+        and others payment methods.</string>
+
+    <string name="ob2_btn">Next</string>
+
+    <!-- On-Board-Screen-3 -->
+
+    <string name="ob3_header">Choose your food</string>
+
+    <string name="ob3_description">Easily find your type of food craving
+        and you’ll get delivery in wide range.</string>
+
+    <string name="ob3_btn">Next</string>
+
+    <!-- Activity Main5 -->
+
+    <string name="main5_header">Find Your Favorite\nFlavors</string>
+
+    <string name="main5_description">Browse our menu and find the perfect
+        dish to satisfy your cravings</string>
+
+    <string name="main5_btn">Sign in Now</string>
+
+    <!-- Activity Main6 -->
+
+    <string name="main6_header">Welcome Back</string>
+
+    <string name="main6_subHeader">Glad to see ,you\'ve\nbeen missed</string>
+
+    <string name="forgetpwText">Forgot your password?</string>
+
+    <string name="new_Acc_Txt">Create new account</string>
+
+    <string name="SignInBtn">Sign in</string>
+
+    <!-- Activity Main7 -->
+
+    <string name="main7_header">Create Account</string>
+
+    <string name="main7_subHeader">Create an account so you
+        can\nexplore all</string>
+
+    <string name="SignUpBtn">Sign up</string>
+
+    <!-- Activity Main8 -->
+
+    <string name="Vfy_header">Verification</string>
+
+    <string name="Vfy_header2">Check you email \n,We send you
+        one time passcode</string>
+
+    <!-- Activity Main11 (Navbar) -->
+
+    <string name="ntxt1">Home</string>
+
+    <string name="ntxt2">Favourites</string>
+
+    <string name="ntxt3">My Cart</string>
+
+    <string name="ntxt4">My Orders</string>
+
+    <string name="ntxt5">My Profile</string>
+
+    <string name="ntxt6">About/Support</string>
+
+    <string name="ntxt7">Sign Out</string>
+
+    <!-- Activity Main18 -->
+
+    <string name="tamount">Total Amount</string>
+
+    <!-- Activity Main19 -->
+
+    <string name="abs_header">About &amp; Support</string>
+
+    <string name="aboutUs_description">Food Rush is a fast, reliable on‑demand food delivery service
+        connecting customers with nearby restaurants and trusted riders. Our mission is to deliver great meals
+        quickly and safely—anytime, anywhere.</string>
+
+    <string name="key_features">• Live order tracking\n• Secure payments\n• Curated offers &amp; discounts\n\
+        • 24/7 customer support\n• Multi‑language support</string>
+
+    <string name="op_details">Orders: Mon–Sun, 8:00 AM – 11:00 PM\nSupport: 24/7 via chat &amp; email</string>
+
+    <string name="support_opt">• In‑app chat (Help ▶ Start chat)\n• Email support (24/7)\n• Call hotline\n• Help
+        Center (FAQs &amp; guides)</string>
+
+    <string name="q1">Q: How do I order a product?</string>
+
+    <string name="a1">A: Open Orders ▶ select your cart section and make successful payment throught payment gateway..</string>
+
+    <string name="q2">A: You need to contact us with given contact number..</string>
+
+    <string name="a2">A: You need to contact us with given contact number..</string>
+
+    <string name="a3">A: Major cards, cash on delivery not available now , available in next update..</string>
+
+    <string name="q3">Q: What payment methods are supported?</string>
+
+    <string name="app_info">Last updated: Sep 1, 2025</string>
 
 </resources>

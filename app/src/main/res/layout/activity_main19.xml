@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="About &amp; Support"
+            android:text="@string/abs_header"
             android:textSize="28sp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="18dp"
@@ -70,7 +70,7 @@
             android:id="@+id/body_about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Food Rush is a fast, reliable on‑demand food delivery service connecting customers with nearby restaurants and trusted riders. Our mission is to deliver great meals quickly and safely—anytime, anywhere."
+            android:text="@string/aboutUs_description"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:lineSpacingExtra="2dp" />
@@ -97,7 +97,7 @@
             android:id="@+id/body_features"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="• Live order tracking\n• Secure payments\n• Curated offers &amp; discounts\n• 24/7 customer support\n• Multi‑language support"
+            android:text="@string/key_features"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:lineSpacingExtra="4dp" />
@@ -195,7 +195,7 @@
             android:id="@+id/body_hours"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Orders: Mon–Sun, 8:00 AM – 11:00 PM\nSupport: 24/7 via chat &amp; email"
+            android:text="@string/op_details"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:lineSpacingExtra="2dp" />
@@ -222,7 +222,7 @@
             android:id="@+id/body_support_options"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="• In‑app chat (Help ▶ Start chat)\n• Email support (24/7)\n• Call hotline\n• Help Center (FAQs &amp; guides)"
+            android:text="@string/support_opt"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:lineSpacingExtra="4dp" />
@@ -249,7 +249,7 @@
             android:id="@+id/faq_q1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Q: How do I order a product?"
+            android:text="@string/q1"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="16sp" />
@@ -258,7 +258,7 @@
             android:id="@+id/faq_a1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="A: Open Orders ▶ select your cart section and make successful payment throught payment gateway.."
+            android:text="@string/a1"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:layout_marginBottom="8dp" />
@@ -276,7 +276,7 @@
             android:id="@+id/faq_a2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="A: You need to contact us with given contact number.."
+            android:text="@string/a2"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:layout_marginBottom="8dp" />
@@ -285,7 +285,7 @@
             android:id="@+id/faq_q3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Q: What payment methods are supported?"
+            android:text="@string/q3"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="16sp" />
@@ -294,7 +294,7 @@
             android:id="@+id/faq_a3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="A: Major cards, cash on delivery not available now , available in next update.."
+            android:text="@string/a3"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:layout_marginBottom="8dp" />
@@ -321,7 +321,7 @@
             android:id="@+id/body_appinfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Last updated: Sep 1, 2025"
+            android:text="@string/app_info"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:lineSpacingExtra="2dp" />

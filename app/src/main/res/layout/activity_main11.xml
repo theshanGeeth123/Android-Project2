@@ -52,7 +52,7 @@
                 android:id="@+id/tv1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Home"
+                android:text="@string/ntxt1"
                 android:gravity="center_vertical"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -93,7 +93,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Favourites"
+                android:text="@string/ntxt2"
                 android:gravity="center_vertical"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -134,7 +134,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="My Cart"
+                android:text="@string/ntxt3"
                 android:gravity="center_vertical"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -176,7 +176,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="My Orders"
+                android:text="@string/ntxt4"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold"></TextView>
@@ -213,7 +213,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="My Profile"
+                android:text="@string/ntxt5"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold"></TextView>
@@ -252,7 +252,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
-                android:text="About/Support"
+                android:text="@string/ntxt6"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold"></TextView>
@@ -298,7 +298,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Sign Out"
+                android:text="@string/ntxt7"
                 android:gravity="center_vertical"
                 android:textSize="25sp"
                 android:textStyle="bold"
