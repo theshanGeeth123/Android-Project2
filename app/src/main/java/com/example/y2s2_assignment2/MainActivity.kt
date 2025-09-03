@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.view.animation.AnimationUtils
+import android.widget.TextView
 
 
 class MainActivity : AppCompatActivity() {
@@ -19,10 +20,6 @@ class MainActivity : AppCompatActivity() {
 
         val getStartedButton = findViewById<Button>(R.id.button)
 
-//        val logoImage = findViewById<ImageView>(R.id.imageView4)
-
-
-        // Example: add a click listener
         getStartedButton.setOnClickListener {
 
             val intent = Intent(this, MainActivity2::class.java)

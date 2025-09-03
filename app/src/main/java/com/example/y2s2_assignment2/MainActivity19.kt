@@ -18,7 +18,7 @@ class MainActivity19 : AppCompatActivity() {
 
         image1.setOnClickListener(){
 
-            val intent = Intent(this, MainActivity9::class.java)
+            val intent = Intent(this, MainActivity11::class.java)
             startActivity(intent)
         }
 

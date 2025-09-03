@@ -9,26 +9,22 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity17 : AppCompatActivity() {
+class MainActivity22 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main17)
-
-        val btn1 = findViewById<Button>(R.id.button)
-
-        btn1.setOnClickListener(){
-
-            val intent = Intent(this, MainActivity9::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.activity_main22)
 
         val image1 = findViewById<ImageView>(R.id.imageView1)
+        val btn1   = findViewById<Button>(R.id.button2)
 
-        image1.setOnClickListener(){
+        image1.setOnClickListener {
+            startActivity(Intent(this, MainActivity6::class.java))
+        }
 
-            val intent = Intent(this, MainActivity11::class.java)
-            startActivity(intent)
+        btn1.setOnClickListener {
+
+            startActivity(Intent(this, MainActivity6::class.java))
         }
 
     }

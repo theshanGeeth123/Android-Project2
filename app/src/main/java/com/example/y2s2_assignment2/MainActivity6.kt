@@ -33,5 +33,14 @@ class MainActivity6 : AppCompatActivity() {
 
         }
 
+        val forgetpwText = findViewById<TextView>(R.id.textView9)
+
+        forgetpwText.setOnClickListener(){
+
+            val intent = Intent(this,MainActivity20::class.java)
+            startActivity(intent)
+
+        }
+
     }
 }
